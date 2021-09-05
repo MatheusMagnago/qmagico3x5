@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.979);
+}
+
+h1 {
+    color: rgb(132, 0, 255);
+    background-color: rgba(137, 43, 226, 0.226);
+    
+}
+    
+
+button {
+    background-color: rgb(93, 14, 167);
+    margin: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td {
+    border: solid 1px;
+}
+
+input {
+    border: none;
+    width: 3.5em;
+    height: 3.5em;
+    text-align: center;
+    font-size: larger;
+}
+
+.somaerradacoluna input, 
+.somaerradalinha input, 
+.somaerradadiagonalsecundaria input, 
+.somaerradadiagonalprincipal input {
+    color: orange;
+    border: solid 2px orange
+}
+
+.foradoslimites input,
+.numerosrepetidos input {
+    color: red;
+    border: solid 2px red
+}
+
+.vitoria tr td input {
+    color: green;
+    border: solid 2px green;
+}
+
+
+
